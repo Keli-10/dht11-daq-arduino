@@ -5,7 +5,6 @@ Reads ambient temperature (°C) and relative humidity (%) every 2 seconds and lo
 the data as CSV output via USB serial to a connected computer.
 
 
-
 ---
 
 ## Overview
@@ -85,8 +84,6 @@ Arduino D3  ──── DHT11 S (DATA)
 
 ```cpp
 // DHT11 Environmental DAQ System
-// Author: Governor-Yorhokpor Isaac | PS/EPH/22/0010
-// Department of Physics, UCC | ENP416 Final Assessment
 
 #include "DHT.h"
 
